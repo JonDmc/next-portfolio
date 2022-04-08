@@ -11,6 +11,20 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: hotpink;
+}
+
+p {
+  color: chartreuse;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
