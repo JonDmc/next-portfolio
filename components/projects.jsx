@@ -10,11 +10,11 @@ export default function Projects() {
 
                     </div>
                     <div id='p1-desc'>
-                        <p> A web-based game inspired by the retro game of 'Super Bomberman'.</p>
+                        <p> A web-based game inspired by the retro game of Super Bomberman.</p>
                         <em> Built with HTML (canvas), CSS and Javascript.</em>
                         <br />
                         <br />
-                        <a className={styles.alink} href='https://jondmc.github.io/Project1-bomber/' target='_blank'>Try it out!</a>
+                        <a className={styles.alink} href='https://jondmc.github.io/Project1-bomber/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
                     </div>
                 </section>
                 <section id="p2" className={`center column ${styles.container}`} >
@@ -28,7 +28,7 @@ export default function Projects() {
                         <em>Built with Postgres, Express, and Node.js</em>
                         <br />
                         <br />
-                        <a className={styles.alink} href='https://pokemon-tc-go.herokuapp.com/' target='_blank'>Try it out!</a>
+                        <a className={styles.alink} href='https://pokemon-tc-go.herokuapp.com/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
                     </div>
                 </section>
             </main>
@@ -45,7 +45,7 @@ export default function Projects() {
                         <em>Built with MongoDB, Express, React, and Node.js</em>
                         <br />
                         <br />
-                        <a className={styles.alink} href='https://pokemon-tc-go.herokuapp.com/' target='_blank'>Try it out!</a>
+                        <a className={styles.alink} href='https://pokemon-tc-go.herokuapp.com/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
                         <br />
                         <br />
                         <em style={{ color: 'red' }}>Disclaimer: Please contact the developer for a demo of this app.</em>
