@@ -8,10 +8,6 @@ function MyApp({ Component, pageProps }) {
       <main>
         < Component {...pageProps} />
       </main>
-
-      <footer>
-        ©️ Jon {new Date().getFullYear()}
-      </footer>
     </>
   )
 }
