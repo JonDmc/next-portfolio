@@ -1,0 +1,12 @@
+.tealText {
+    color: darkturquoise;
+}
+
+.container {
+    border: solid yellow;
+    height: 40vh;
+}
+
+.alink {
+    text-decoration: underline;
+}

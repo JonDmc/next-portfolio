@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Press+Start+2P&family=Shizuru&family=Syne+Tactile&display=swap');
+
 html,
 body {
   padding: 0;
@@ -11,20 +13,94 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-color: hotpink;
-}
 
-p {
-  color: chartreuse;
+body {
+  background-color: black;
 }
 
 * {
   box-sizing: border-box;
+  color: chartreuse;
+  font-family: 'Press Start 2P';
+  /* letter-spacing: .1rem; */
+  line-height: 1.5;
 }
 
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar>li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0 1rem;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  padding: 0.5rem 10rem;
+  background-color: #333333;
+  font-size: 1.5rem;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 20rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border: solid white;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.pt2 {
+  padding-top: 2rem;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+.mt4 {
+  margin-top: 4rem;
+}
+
+.mt5 {
+  margin-top: 5rem;
 }

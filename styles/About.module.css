@@ -9,3 +9,8 @@
 .bgRed {
     background-color: red;
 }
+
+.container {
+    border: solid yellow;
+    height: 70vh;
+}
