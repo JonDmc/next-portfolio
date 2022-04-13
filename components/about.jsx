@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
 
+
 export default function About() {
     return (
         <div className='container'>
@@ -20,10 +21,7 @@ export default function About() {
                     <p>A career working with people in a fast-paced, quality-driven environment has honed me to have intensity and integrity in my work while maintaining high-quality results.</p>
                     <p>Curiosity has always enveloped my mind, it provides me a hint of foresight that gives me the ability to plan and adapt accordingly.</p>
                     <p>I am able to communicate effectively by assessing the current problem as well as solving it by breaking it down into pieces.</p>
-
-
                 </section>
-
 
                 {/* loading an image locally */}
                 {/* loading an image from anotherr hosting domain */}

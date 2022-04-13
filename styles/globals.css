@@ -16,11 +16,12 @@ a {
 
 body {
   background-color: black;
+  color: chartreuse;
 }
 
 * {
   box-sizing: border-box;
-  color: chartreuse;
+  /* color: chartreuse; */
   font-family: 'Press Start 2P';
   /* letter-spacing: .1rem; */
   line-height: 1.5;
@@ -74,8 +75,11 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 70vw;
   border: solid white;
+  margin: 0 auto;
+  /* margin-top: 5rem; */
 }
 
 .column {

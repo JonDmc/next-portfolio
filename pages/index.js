@@ -6,6 +6,7 @@ import Navbar from '../components/navbar'
 import About from '../components/about'
 import Projects from '../components/projects'
 import Contact from '../components/contact'
+import Tech from '../components/tech'
 
 export default function Home() {
   return (
@@ -20,8 +21,11 @@ export default function Home() {
         <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script> */}
       </Head>
       <main>
-        <section className={`${styles.main} row mt5`} id='About' >
+        <section className={`${styles.main} row`} id='About' >
           <About />
+        </section>
+        <section className={`${styles.main} row`} id='Tech' >
+          <Tech />
         </section>
         <section className={`${styles.main} row`} id='Project'>
           <Projects />
