@@ -20,7 +20,7 @@ export default function Home() {
         <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
         <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script> */}
       </Head>
-      <main>
+      <main id='home'>
         <section className={`${styles.main} row`} id='About' >
           <About />
         </section>

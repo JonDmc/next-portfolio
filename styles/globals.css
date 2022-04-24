@@ -26,9 +26,7 @@ button:hover {
 * {
   scroll-behavior: smooth !important;
   box-sizing: border-box;
-  /* color: chartreuse; */
   font-family: 'Press Start 2P';
-  /* letter-spacing: .1rem; */
   line-height: 1.5;
 }
 
@@ -52,8 +50,11 @@ button:hover {
   border-right: solid white;
 }
 
+.navbar>li:hover {
+  background-color: #023612;
+}
+
 .navbar {
-  position: relative;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -62,11 +63,11 @@ button:hover {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: center;
-  /* padding-top: 0.5rem;
-  padding-bottom: 0.5rem; */
-  padding: 0.5rem 10rem;
+  padding: 0.5rem;
   background-color: #686868;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  max-width: 80vw;
+  margin: 0 auto;
 }
 
 .fixed-top {
@@ -125,3 +126,66 @@ button:hover {
 .mt5 {
   margin-top: 5rem;
 }
+
+@media screen and (max-width: 415px) {
+  body {
+    font-size: 15px;
+  }
+
+  .navbar {
+    font-size: .87rem;
+    max-width: 80rem;
+  }
+
+  .navbar>li {
+    padding: 0 .8rem;
+  }
+
+  .column,
+  .center {
+    display: block;
+  }
+
+  #desc {
+    font-size: 13px;
+    height: 85vh;
+  }
+
+  #home {
+    width: 34rem;
+  }
+
+  #pic {
+    height: 45vh;
+  }
+
+  #tech {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
+
+  #contacts {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+/* @media screen and (max-width: 869px) {
+  body {
+    font-size: 15px;
+  }
+
+  .navbar {
+    font-size: 17px;
+    max-width: 80vw;
+  }
+
+  .column,
+  .center {
+    display: block;
+  }
+
+  #desc {
+    font-size: 13px;
+  }
+} */

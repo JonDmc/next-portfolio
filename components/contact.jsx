@@ -6,7 +6,7 @@ export default function Contact() {
     return (
         <div>
             <h2 className="center">Contact</h2>
-            <main>
+            <main id='contacts'>
                 <a href='https://www.linkedin.com/in/jon-dmclngn/' target='_blank' rel="noopener noreferrer nofollow">
                     <BsLinkedin className={styles.size} />
                 </a>

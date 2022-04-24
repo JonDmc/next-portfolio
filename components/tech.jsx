@@ -4,10 +4,10 @@ import { SiJavascript, SiMongodb, SiPostgresql, SiSequelize, SiExpress } from 'r
 
 export default function Tech() {
     return (
-        <div>
+        <div id='tech'>
             <h1 className='center'>Tech stack</h1>
-            <main>
-                <section>
+            <main className={styles.container}>
+                <section >
                     <FaHtml5 className={`${styles.html5}`} />
                     <FaCss3Alt className={styles.css3} />
                     <SiJavascript className={styles.js} />

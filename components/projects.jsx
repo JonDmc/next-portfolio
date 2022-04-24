@@ -41,7 +41,7 @@ export default function Projects() {
                                 </div>
                                 <br />
                                 <br />
-                                <a className={styles.alink} href='https://jondmc.github.io/Project1-bomber/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
+                                <button className={styles.pddng} onClick={() => handleBtn(1)}>Try it out!</button>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Projects() {
                                 </div>
                                 <br />
                                 <br />
-                                <a className={styles.alink} href='https://pokemon-tc-go.herokuapp.com/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
+                                <button className={styles.pddng} onClick={() => handleBtn(2)}>Try it out!</button>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ export default function Projects() {
                                 </div>
                                 <br />
                                 <br />
-                                <a className={styles.alink} href='https://flourishing-stroopwafel-14214c.netlify.app/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
+                                <button className={styles.pddng} onClick={() => handleBtn(3)}>Try it out!</button>
                                 <br />
                                 <p style={{ color: 'black' }}>P.S.:Please contact the developer for a demo of this app.</p>
                             </div>
@@ -117,8 +117,7 @@ export default function Projects() {
                                 <em>Built with MongoDB, Express, React, and Node.js</em>
                                 <br />
                                 <br />
-                                {/* <button onClick={() => handleBtn(4)}>Demo</button> */}
-                                <a href="https://i.imgur.com/kB8c0k8.jpg" ><button>DEMO</button></a>
+                                <button onClick={() => handleBtn(4)}>Demo</button>
                                 <br />
                                 <br />
                                 <em style={{ color: 'red' }}>Disclaimer: Please contact the developer for a demo of this app.</em>

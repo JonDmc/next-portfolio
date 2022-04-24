@@ -109,9 +109,17 @@
 }
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+} */
+
+@media screen and (max-width: 412px) {
+
+  .footer {
+    margin-left: 12rem;
+  }
+
 }
