@@ -9,10 +9,6 @@
 
 .alink {
     text-decoration: underline;
-    z-index: 1 !important;
-    padding: 1rem;
-    /* margin: 2rem !important; */
-    display: inline-block;
 }
 
 .flipCard {
@@ -31,7 +27,6 @@
     transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 .flipCard:hover .flipCardInner {
@@ -49,11 +44,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.flipCardFront {
-    /* background-color: #bbb; */
-    color: black;
+    z-index: 1;
 }
 
 .flipCardBack {
@@ -61,13 +52,7 @@
     background-color: #025B18;
     color: white;
     transform: rotateY(180deg);
-    /* display: inline-flex; */
 }
-
-/* .flipCardBack a {
-    border: solid orange;
-    display: inline-flex;
-} */
 
 .html5 {
     color: orange;
