@@ -1,57 +1,129 @@
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 65vw;
+}
+
 .html5 {
     color: orange;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 }
 
 .css3 {
     color: #77bfe3;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 }
 
 .python {
     color: #337bb3;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 
 }
 
 .js {
     color: yellow;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 }
 
 .postgres {
     color: #336289;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 
 }
 
 .sqlze {
     color: #138ccb;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 }
 
 .react {
     color: #00a2ff;
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
 
 }
 
 .size {
-    width: 5rem;
-    height: 5rem;
+    width: 12rem;
+    height: 12rem;
     padding: 1rem;
+}
+
+@media screen and (max-width: 415px) {
+    .container {
+        height: 110vh;
+    }
+
+    .html5 {
+        color: orange;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+    }
+
+    .css3 {
+        color: #77bfe3;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+    }
+
+    .python {
+        color: #337bb3;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+
+    }
+
+    .js {
+        color: yellow;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+    }
+
+    .postgres {
+        color: #336289;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+
+    }
+
+    .sqlze {
+        color: #138ccb;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+    }
+
+    .react {
+        color: #00a2ff;
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+
+    }
+
+    .size {
+        width: 7.9rem;
+        height: 7.9rem;
+        padding: 0.8rem;
+    }
 }

@@ -25,3 +25,29 @@
     margin-top: 3rem;
     font-size: medium;
 }
+
+@media screen and (max-width: 869px) {
+    .resumeBtn {
+        height: 30px;
+        width: 80px;
+        margin-top: 3rem;
+        font-size: 11px;
+    }
+
+    .container {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .resumeBtn {
+        height: 30px;
+        width: 80px;
+        margin-top: 3rem;
+        font-size: 11px;
+    }
+
+    .container {
+        height: 63vh;
+    }
+}

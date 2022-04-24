@@ -3,3 +3,11 @@
     height: 10rem;
     padding: 1rem;
 }
+
+@media screen and (max-width: 415px) {
+    .size {
+        width: 8rem;
+        height: 8rem;
+        margin: 1rem;
+    }
+}

@@ -7,8 +7,8 @@
     height: 40vh;
 }
 
-.alink {
-    text-decoration: underline;
+.pddng {
+    padding: .5rem;
 }
 
 .flipCard {
@@ -27,6 +27,8 @@
     transition: transform 1s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+
 }
 
 .flipCard:hover .flipCardInner {
@@ -45,6 +47,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+
 }
 
 .flipCardBack {
@@ -56,59 +59,130 @@
 
 .html5 {
     color: orange;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 }
 
 .css3 {
     color: #77bfe3;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 }
 
 
 .js {
     color: yellow;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 }
 
 .postgres {
     color: #138ccb;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 
 }
 
 .sqlze {
     color: #138ccb;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 }
 
 .react {
     color: #00a2ff;
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
 
 }
 
 .express {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
     color: black;
 }
 
 .size {
-    width: 5rem;
-    height: 5rem;
-    padding: 1rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.3rem;
     color: chartreuse;
+}
+
+@media screen and (max-width: 415px) {
+    .flipCard {
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .container {
+        height: 50vh;
+    }
+
+    .html5 {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+
+    .css3 {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+
+
+    .js {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+
+    .postgres {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+
+    }
+
+    .sqlze {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+
+    .react {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+
+    }
+
+    .express {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+
+    .size {
+        width: 3rem;
+        height: 3rem;
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .container {
+        height: 55vh;
+    }
+
 }
