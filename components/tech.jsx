@@ -1,6 +1,6 @@
 import styles from '../styles/Tech.module.css'
 import { FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaReact } from 'react-icons/fa'
-import { SiJavascript, SiMongodb, SiPostgresql, SiSequelize } from 'react-icons/si'
+import { SiJavascript, SiMongodb, SiPostgresql, SiSequelize, SiExpress } from 'react-icons/si'
 
 export default function Tech() {
     return (
@@ -12,6 +12,7 @@ export default function Tech() {
                     <FaCss3Alt className={styles.css3} />
                     <SiJavascript className={styles.js} />
                     <FaNodeJs className={styles.size} />
+                    <SiExpress className={styles.size} />
                     <SiPostgresql className={styles.postgres} />
                     <SiSequelize className={styles.sqlze} />
                     <SiMongodb className={styles.size} />
