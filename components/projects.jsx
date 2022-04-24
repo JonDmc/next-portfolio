@@ -63,7 +63,7 @@ export default function Projects() {
                                 />
                             </div>
                             <div id='p2-desc' className={styles.flipCardBack}>
-                                <p>Inspired by "Pokemon: Trading Card", this app will allow the user to experience the basic collecting part of the game.  </p>
+                                <p>Inspired by Pokemon: Trading Card, this app will allow the user to experience the basic collecting part of the game.  </p>
                                 <br />
                                 <div className='row'>
                                     <SiPostgresql className={styles.postgres} />
