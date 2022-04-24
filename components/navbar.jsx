@@ -10,6 +10,11 @@ export default function Navbar() {
                     About
                 </Link>
             </li>
+            <li>
+                <Link href='#Tech'>
+                    Tech
+                </Link>
+            </li>
 
             <li>
                 <Link href='#Project'>

@@ -11,6 +11,17 @@
 }
 
 .container {
-    border: solid yellow;
+    /* border: solid yellow; */
     height: 70vh;
+}
+
+.profPic {
+    border-radius: 20rem;
+}
+
+.resumeBtn {
+    height: 40px;
+    width: 150px;
+    margin-top: 3rem;
+    font-size: medium;
 }

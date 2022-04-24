@@ -5,7 +5,7 @@ const nextConfig = {
   // white listed means trusted
   images: {
     // no https://
-    domains: ['placekitten.com']
+    domains: ['placekitten.com', 'i.imgur.com']
   }
 }
 
