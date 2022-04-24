@@ -41,13 +41,7 @@ export default function Projects() {
                                 </div>
                                 <br />
                                 <br />
-                                <a href='https://jondmc.github.io/Project1-bomber/' target='_blank' rel="noopener noreferrer nofollow">
-                                    <div className={styles.alink}>
-                                        <p>
-                                            Try it out!
-                                        </p>
-                                    </div>
-                                </a>
+                                <a className={styles.alink} href='https://jondmc.github.io/Project1-bomber/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +93,7 @@ export default function Projects() {
                                 </div>
                                 <br />
                                 <br />
-                                <a className={styles.alink} href='https://flourishing-stroopwafel-14214c.netlify.app/' target='_blank' rel="noopener noreferrer nofollow">Demo</a>
+                                <a className={styles.alink} href='https://flourishing-stroopwafel-14214c.netlify.app/' target='_blank' rel="noopener noreferrer nofollow">Try it out!</a>
                                 <br />
                                 <p style={{ color: 'black' }}>P.S.:Please contact the developer for a demo of this app.</p>
                             </div>
