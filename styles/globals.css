@@ -66,7 +66,7 @@ button:hover {
   padding: 0.5rem;
   background-color: #686868;
   font-size: 1.2rem;
-  max-width: 80vw;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -127,6 +127,13 @@ button:hover {
   margin-top: 5rem;
 }
 
+@media screen and (max-width: 375) {
+
+  #pic {
+    max-height: 80rem !important;
+  }
+}
+
 @media screen and (max-width: 415px) {
   body {
     font-size: 15px;
@@ -134,7 +141,6 @@ button:hover {
 
   .navbar {
     font-size: .87rem;
-    max-width: 80rem;
   }
 
   .navbar>li {
@@ -170,14 +176,25 @@ button:hover {
   }
 }
 
-/* @media screen and (max-width: 869px) {
+@media screen and (max-width: 360px) {
+
+  #home {
+    width: 34rem;
+  }
+
+  body {
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (max-width: 869px) {
   body {
     font-size: 15px;
   }
 
   .navbar {
     font-size: 17px;
-    max-width: 80vw;
   }
 
   .column,
@@ -188,4 +205,4 @@ button:hover {
   #desc {
     font-size: 13px;
   }
-} */
+}

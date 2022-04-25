@@ -116,7 +116,7 @@
   }
 } */
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 415px) {
 
   .footer {
     margin-left: 12rem;
@@ -128,6 +128,15 @@
 
   .footer {
     margin-left: 6.8rem;
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .footer {
+    margin-left: 7.7rem;
     width: 100%;
   }
 

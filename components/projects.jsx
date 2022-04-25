@@ -105,22 +105,24 @@ export default function Projects() {
                         <div className={styles.flipCardInner}>
                             <div className={styles.flipCardFront}>
                                 <Image
-                                    src='https://i.imgur.com/kB8c0k8.jpg'
+                                    src='https://i.imgur.com/nU5pDNm.jpg'
                                     width={600}
                                     height={600}
                                 />
                             </div>
                             <div id='p4-desc' className={styles.flipCardBack}>
-                                <p>An app that tests your knowledge on music based on your choice of artist(s).</p>
-                                <p>Given a short preview of a song, you will need to correctly guess the song.</p>
-                                <p>This app will bring out your listening abilities and your competitiveness all while vibing to jams.</p>
-                                <em>Built with MongoDB, Express, React, and Node.js</em>
+                                <p>An app for solo gamers looking for a group to party with.</p>
+                                <br />
+                                <div className='row'>
+                                    <SiMongodb className={styles.size} />
+                                    <SiExpress className={styles.express} />
+                                    <FaReact className={styles.react} />
+                                    <FaNodeJs className={styles.size} />
+                                </div>
+                                {/* <button onClick={() => handleBtn(4)}>Demo</button> */}
                                 <br />
                                 <br />
-                                <button onClick={() => handleBtn(4)}>Demo</button>
-                                <br />
-                                <br />
-                                <em style={{ color: 'red' }}>Disclaimer: Please contact the developer for a demo of this app.</em>
+
                             </div>
                         </div>
                     </div>
