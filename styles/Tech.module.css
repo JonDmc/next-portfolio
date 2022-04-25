@@ -127,3 +127,117 @@
         padding: 0.8rem;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .container {
+        height: 110vh;
+    }
+
+    .html5 {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+    }
+
+    .css3 {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+    }
+
+    .python {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+
+    }
+
+    .js {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+    }
+
+    .postgres {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+
+    }
+
+    .sqlze {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+    }
+
+    .react {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+
+    }
+
+    .size {
+        width: 7rem;
+        height: 7rem;
+        padding: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        height: 110vh;
+    }
+
+    .html5 {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+    }
+
+    .css3 {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+    }
+
+    .python {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+
+    }
+
+    .js {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+    }
+
+    .postgres {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+
+    }
+
+    .sqlze {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+    }
+
+    .react {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+
+    }
+
+    .size {
+        width: 6.5rem;
+        height: 6.5rem;
+        padding: 0.8rem;
+    }
+}

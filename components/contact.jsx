@@ -13,7 +13,7 @@ export default function Contact() {
                 <a href='https://github.com/JonDmc' target='_blank' rel="noopener noreferrer nofollow">
                     <BsGithub className={styles.size} />
                 </a>
-                <a href='https://jondmclngn@gmail.com/' target='_blank' rel="noopener noreferrer nofollow">
+                <a href='mailto:jondmclngn@gmail.com' target='_blank' rel="noopener noreferrer nofollow">
                     <SiGmail className={styles.size} />
                 </a>
             </main>

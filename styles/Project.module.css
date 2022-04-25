@@ -179,6 +179,30 @@
     }
 }
 
+@media screen and (max-width: 360px) {
+    .flipCard {
+        width: 450px;
+        height: 450px;
+    }
+
+    .container {
+        height: 60vh !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .flipCard {
+        width: 450px;
+        height: 450px;
+    }
+
+    .container {
+        height: 70vh !important;
+        margin-left: -1.8rem;
+    }
+
+}
+
 @media screen and (max-width: 390px) {
 
     .container {
